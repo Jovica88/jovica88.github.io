@@ -1,0 +1,24 @@
+.en {
+  background-color: cyan;
+  border: solid;
+}
+
+.to {
+  background-color: rgb(196, 67, 58);
+  border: solid;
+}
+.tre {
+  background-color: rgb(12, 35, 168);
+  border: solid;
+}
+.fire {
+  background-color: rgb(15, 170, 67);
+  border: solid;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 50px;
+}
