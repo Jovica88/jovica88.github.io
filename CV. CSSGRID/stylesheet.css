@@ -1,11 +1,11 @@
 .cv {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-gap: 30px;
   grid-template-areas:
-    "name photo"
-    "work about"
+    "name about"
+    "work education"
     "work education"
     "diverse diverse";
 }
@@ -17,14 +17,10 @@
   grid-area: name;
   box-shadow: 0 4px 6px;
 }
-.photo {
-  grid-area: photo;
-  box-shadow: 0 4px 6px;
-}
+
 .about {
   grid-area: about;
   box-shadow: 0 4px 6px;
-  text-align: left;
 }
 .work {
   grid-area: work;
