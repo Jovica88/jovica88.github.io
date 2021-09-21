@@ -1,0 +1,40 @@
+.cv {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+  grid-template-areas:
+    "name photo"
+    "work about"
+    "work education"
+    "diverse diverse";
+}
+.grid-area {
+  padding: 1em 1em 1em 1em;
+  border: 2px black solid;
+}
+.name {
+  grid-area: name;
+  box-shadow: 0 4px 6px;
+}
+.photo {
+  grid-area: photo;
+  box-shadow: 0 4px 6px;
+}
+.about {
+  grid-area: about;
+  box-shadow: 0 4px 6px;
+  text-align: left;
+}
+.work {
+  grid-area: work;
+  box-shadow: 0 4px 6px;
+}
+.education {
+  grid-area: education;
+  box-shadow: 0 4px 6px;
+}
+.diverse {
+  grid-area: diverse;
+  box-shadow: 0 4px 6px;
+}
